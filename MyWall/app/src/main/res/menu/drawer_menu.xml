@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id = "@+id/seting_id"
+            android:title="@string/action_settings"
+            android:icon="@drawable/settings"
+            ></item>
+
+        <item
+            android:id = "@+id/about_id"
+            android:title="About me"
+            android:icon="@drawable/about"
+            ></item>
+
+        <item
+            android:id = "@+id/rate_id"
+            android:title="Rate this app"
+            android:icon="@drawable/star"
+            ></item>
+
+    </group>
+
+    <item android:title="More information">
+        <menu>
+            <item
+                android:title="Feedback"
+                android:id = "@+id/send_email"
+                android:icon="@drawable/email"
+                >
+
+            </item>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WallBox</string>
+    <string name="action_settings">Settings</string>
+    <string name="more_info"></string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name= "pref_version">App version</string>
+    <string name= "pref_version_key" translatable = "false">version</string>
+    <string name= "version" >version 2.1</string>
+    <string name= "pref_version_default" translatable = "false">version 1.1 released 26/7/2016</string>
+    <string name="pref_thanks">Special thanks</string>
+    <string name="pref_thanks_key" translatable = "false">thanks</string>
+    <string name="pref_thanks_default" translatable = "false">www.hdwallpapers.in\nwww.mobileswall.com\nGithub\nStackoverflow</string>
+    <string name="title_activity_over_view_fragment2">OverViewFragment2</string>
+    <string name="title_activity_overviews">OverviewActivity</string>
+    <string name="title_activity_detail_fragment2">DetailActivityFragment2</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapp.mluan.wallbox" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name="com.myapp.mluan.wallbox.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyMaterialTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myapp.mluan.wallbox.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName="com.myapp.mluan.wallbox.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.mluan.wallbox.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.myapp.mluan.wallbox.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.myapp.mluan.wallbox.MainActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.mluan.wallbox.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.myapp.mluan.wallbox.OverviewActivity"
+            android:label="@string/title_activity_overviews"
+            android:parentActivityName="com.myapp.mluan.wallbox.MainActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.mluan.wallbox.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.myapp.mluan.wallbox.DetailActivityFragment2"
+            android:label="@string/title_activity_detail_fragment2"
+            android:parentActivityName="com.myapp.mluan.wallbox.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.mluan.wallbox.MainActivity" />
+        </activity>
+
+
+    </application>
+
+</manifest>

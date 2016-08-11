@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width = "match_parent"
+                      android:layout_height = "match_parent">
+        <Preference
+            android:title="@string/pref_version"
+            android:key="@string/pref_version_key"
+            android:summary="@string/pref_version_default"
+            android:selectable="false"
+            android:persistent="false"
+            />
+
+        <Preference
+            android:title="@string/pref_thanks"
+            android:key="@string/pref_thanks_key"
+            android:summary="@string/pref_thanks_default"
+            android:selectable="false"
+            android:persistent="false"
+
+        />
+
+
+</PreferenceScreen>
