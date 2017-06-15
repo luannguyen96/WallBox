@@ -1,4 +1,19 @@
 # WallBox
+
+# UPDATE
+
+  Do ứng dụng vi phạm bản quyền hình ảnh nên ứng dụng này của mình sẽ không được phát hành trên Google Play Store. Xin lỗi vì sự bất tiện này
+  
+  <img src="https://user-images.githubusercontent.com/11143771/27197349-11fa03fa-5238-11e7-926b-13261a64ac04.PNG" width="80%">
+  
+  <img src="https://user-images.githubusercontent.com/11143771/27197410-4e21b63e-5238-11e7-87a6-1065456126a0.PNG" width="80%">
+  
+  
+# THÔNG TIN ỨNG DỤNG
+  
+
+
+
   + Kho hình nền chất lượng cao với hơn 10000 hình ảnh chất lượng cao
   + Nhiều bộ sưu tập ảnh đẹp
   + Hỗ trợ nhiều loại màn hình với các kích thước khác nhau: HD , 2K , ...
